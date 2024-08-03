@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+                                                  /* ? header start here */
+header{
+    background-image: url(im/1679465823922.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+#tsd{
+    margin-left:auto;
+}
+.navbar{
+    padding:1% 10% ;
+    background-color: rgba(0,0,0,0.001);
+}
+#code{
+    font-size:35px;
+    color: rgb(248, 161, 161);
+    position: relative;
+    right: 170px;
+    font-weight: 900;
+    font-family: "Kode Mono", monospace;
+
+}
+#bach{
+    color: rgb(248, 248, 248);
+    position: relative;
+    right: 160px;
+    font-weight: 900;
+}
+
+.nav-link{
+    color:white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background: rgba(0,0,0,0.2);
+    color: white;
+    transform: scale(1.1);
+}
+#log{
+    color: red;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+#log:hover{
+    background-image: linear-gradient(15deg,rgba(245, 150, 133, 0.5),rgba(247, 75, 75, 0.5));
+    color: white;
+    transform: scale(1.1);
+}
+#sin{
+    color: red;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+#sin:hover{
+    background-image: linear-gradient(15deg,rgba(245, 132, 112, 0.8),rgba(245, 47, 47, 0.8));
+    color: white;
+    transform: scale(1.1);
+}
+#new{
+    font-size: 65px;
+    font-family: "Kode Mono", monospace;
+}
+#it{
+    font-size: 100px;
+    color: rgb(245, 38, 38);
+    font-weight: 900;
+    font-family: "Kode Mono", monospace; 
+     
+}
+#neu{
+    font-size: 20px;
+    color: rgba(253, 120, 120,05);
+    font-family: "Kode Mono", monospace;
+}
+
+                                                /*! header  end here*/
+
+
+          /*? min star here */
+
+                         /* ?features start */
+    #features{
+        padding: 5% 10%;
+        background: rgba(232, 222, 210,0.2);
+}
+                                                    /* !features start */
+    
+                                                   /* ? features-col start Here */
+    .features-col{
+        border: 1px solid rgb(188, 51, 241) ;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 20px 0;
+        transition: .4s;
+    }
+    .features-col:hover{
+        transform: scale(1.1);
+        box-shadow: 2px 6px 5px black;
+    }
+    .icon-stayle{
+        background: #bb0aac;
+        color: rgb(252, 252, 252);
+        padding: 15px;
+        margin: 5px 0;
+    }
+                                            /*! features-col End Here */
+
+            /* ? About start here */
+            .section-title h3{
+                font-weight: bolder;
+                margin-bottom: 0;
+            }
+               
+            #h5b{
+                font-weight: 900;
+            }
+            #about{
+                padding: 4% 10%;
+                background: rgba(232, 222, 210,0.2);
+            }
+            #about p{
+                font-size: 0.9rem;
+                margin-bottom: 0;
+                font-weight: lighter;
+            }
+            #about a{
+                font-size: 0.9rem;
+                color: black;
+                font-weight: lighter;
+                 
+            }
+
+
+    
+             /* ! About End here */
+
+
+/*! min end here */
+
